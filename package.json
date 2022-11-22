@@ -1,7 +1,7 @@
 {
   "name": "blockstagram",
   "version": "0.1.0",
-  "homepage": "https://github.com/fullstack-decal-fa22/hw4-StaceyLei32",
+  "homepage": "https://fullstack-decal-fa22.github.io/hw4-StaceyLei32",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
