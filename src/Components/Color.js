@@ -1,15 +1,14 @@
 import React from 'react';
 
+ const Color = (props) => {
+    return (
+        <button className="Color"
+            onClick={() => props.handleClick(props.color)} > Post {props.color}
+        </button>  )
+    }
+      
+ /*create a function that takes in props as a function (use props paramenter)
+
+    
 /* TODO: Translate the below class component to a functional component! */
-class Color extends React.Component {
-
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
-        return <button onClick={() => this.props.handleClick(this.props.color)}>Post {this.props.color}</button>
-    }
-}
-
 export default Color;
